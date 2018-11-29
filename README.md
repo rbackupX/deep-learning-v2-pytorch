@@ -38,7 +38,7 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 ### Deploying a Model (with AWS SageMaker)
 
-* [All exercise and project notebooks](https://github.com/udacity/sagemaker-deployment) for the lessons on model deployment can be found in the linked, Github repo. Learn to deploy pre-trained models using AWS SageMaker.
+* [All exercise and project notebooks](./sagemaker-deployment) for the lessons on model deployment can be found in the linked, Github repo. Learn to deploy pre-trained models using AWS SageMaker.
 
 ### Projects
 
@@ -60,9 +60,9 @@ There are also notebooks used as projects for the Nanodegree program. In the pro
 
 Per the Anaconda [docs](http://conda.pydata.org/docs):
 
-> Conda is an open source package management system and environment management system 
-for installing multiple versions of software packages and their dependencies and 
-switching easily between them. It works on Linux, OS X and Windows, and was created 
+> Conda is an open source package management system and environment management system
+for installing multiple versions of software packages and their dependencies and
+switching easily between them. It works on Linux, OS X and Windows, and was created
 for Python programs but can package and distribute any software.
 
 ## Overview
@@ -79,7 +79,7 @@ Using Anaconda consists of the following:
 
 **Download** the latest version of `miniconda` that matches your system.
 
-|        | Linux | Mac | Windows | 
+|        | Linux | Mac | Windows |
 |--------|-------|-----|---------|
 | 64-bit | [64-bit (bash installer)][lin64] | [64-bit (bash installer)][mac64] | [64-bit (exe installer)][win64]
 | 32-bit | [32-bit (bash installer)][lin32] |  | [32-bit (exe installer)][win32]
@@ -98,7 +98,7 @@ Using Anaconda consists of the following:
 
 ## 2. Create and Activate the Environment
 
-For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work. 
+For Windows users, these following commands need to be executed from the **Anaconda prompt** as opposed to a Windows terminal window. For Mac, a normal terminal window will work.
 
 #### Git and version control
 These instructions also assume you have `git` installed for working with Github from a terminal window, but if you do not, you can download that first with the command:
@@ -118,26 +118,26 @@ cd deep-learning-v2-pytorch
 
 2. Create (and activate) a new environment, named `deep-learning` with Python 3.6. If prompted to proceed with the install `(Proceed [y]/n)` type y.
 
-	- __Linux__ or __Mac__: 
+	- __Linux__ or __Mac__:
 	```
 	conda create -n deep-learning python=3.6
 	source activate deep-learning
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda create --name deep-learning python=3.6
 	activate deep-learning
 	```
-	
+
 	At this point your command line should look something like: `(deep-learning) <User>:deep-learning-v2-pytorch <user>$`. The `(deep-learning)` indicates that your environment has been activated, and you can proceed with further package installations.
 
 3. Install PyTorch and torchvision; this should install the latest version of PyTorch.
-	
-	- __Linux__ or __Mac__: 
+
+	- __Linux__ or __Mac__:
 	```
-	conda install pytorch torchvision -c pytorch 
+	conda install pytorch torchvision -c pytorch
 	```
-	- __Windows__: 
+	- __Windows__:
 	```
 	conda install pytorch -c pytorch
 	pip install torchvision
@@ -150,7 +150,7 @@ pip install -r requirements.txt
 
 7. That's it!
 
-Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project. 
+Now most of the `deep-learning` libraries are available to you. Very occasionally, you will see a repository with an addition requirements file, which exists should you want to use TensorFlow and Keras, for example. In this case, you're encouraged to install another library to your existing environment, or create a new environment for a specific project.
 
 Noe, assuming your `deep-learning` environment is still activated, you can navigate to the main repo and start looking at the notebooks:
 
